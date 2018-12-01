@@ -8,12 +8,9 @@ import android.nfc.NfcAdapter;
 import android.os.Bundle;
 import android.util.Log;
 
-import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
-
-import java.nio.charset.Charset;
 
 /** TryoutPlugin */
 public class TryoutPlugin implements ActivityLifecycleCallbacks {
